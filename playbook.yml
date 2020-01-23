@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: make sure log directory exists
+    file: path=/var/log/django_rest_template state=directory mode=0755 owner=root
+  - name: make sure log file exists
+    file: path=/var/log/django_rest_template/log state=touch mode=0666 owner=root
+

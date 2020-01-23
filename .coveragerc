@@ -1,0 +1,19 @@
+[run]
+omit =
+    */site-packages/*
+    */distutils/*
+    tests/*
+    venv/*
+    env/*
+
+[report]
+omit =
+    */site-packages/*
+    */distutils/*
+    tests/*
+    venv/*
+    env/*
+
+[paths]
+source =
+	django_rest_template/*
