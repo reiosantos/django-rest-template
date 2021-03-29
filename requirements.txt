@@ -81,7 +81,7 @@ pycparser==2.19
 pyexcel==0.5.15
 pyexcel-io==0.5.20
 pyexcel-webio==0.1.4
-Pygments==2.5.2
+Pygments==2.7.4
 PyJWT==1.7.1
 pylint==2.4.4
 PyPDF2==1.26.0
